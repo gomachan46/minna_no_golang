@@ -1,4 +1,4 @@
-# みんなのGo言語を読む
+# みんなのGo言語を読んでいく
 
 ![](https://images-na.ssl-images-amazon.com/images/I/61EL3Dc95dL._SX352_BO1,204,203,200_.jpg)
 
