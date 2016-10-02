@@ -38,3 +38,28 @@ export PATH=$PATH:$GOPATH/bin
 ```
 
 みたいな感じでパスを通してあげればOK
+
+## go get
+
+`go get` はgemのようなパッケージインストールの仕組みを提供してくれるコマンド。
+
+```
+go get github.com/motemen/gore
+```
+
+とかやると`gore`というライブラリをインストール出来る。
+
+https://github.com/motemen/gore
+
+GOPATH下は以下のような構成でディレクトリが掘られる
+
+* bin/
+  * 実行形式コマンド
+* pkg/
+  * パッケージオブジェクト
+* src/
+  * ソースコード
+  
+### gore
+
+`gore`はGoの代表的なREPL。(むしろ標準じゃないんだなぁ)
